@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <SandBox/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SandBox from './components/SandBox.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SandBox
   }
 }
 </script>
